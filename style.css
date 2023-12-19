@@ -1,0 +1,395 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid rgb(3, 16, 70);
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+
+    height: 1438px;
+    width: 300px;
+    border: 2px solid white;
+
+    background-color: rgba(7, 26, 70, 0.894);
+    color: white;
+}
+
+
+.perfil {
+    padding: 2px;
+    height: 300px;
+    width: 300px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    line-height: 10px;
+
+
+}
+.perfil h1{
+    padding: 20px;
+}
+.perfil h1{
+    padding: 20px;
+}
+.perfil h3{
+    
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+}
+
+.perfil img {
+
+    padding: 3px;
+
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid white;
+
+}
+
+.apellido {
+    color: rgb(127, 202, 255);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contacto h3 {
+    padding: 5px;
+    display: grid;
+    align-items: center;
+    justify-content: center
+}
+
+.celular {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 2px;
+    padding: 3px;
+}
+
+.mail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 3px;
+
+
+}
+
+.mail a {
+    color: white;
+}
+
+.direccion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 3px;
+
+}
+
+.nacionalidad {
+    display: flex;
+    justify-content: right r;
+    align-items: center;
+    gap: 10px;
+    padding: 3px;
+
+}
+
+.edad {
+    display: flex;
+    justify-content: right r;
+    align-items: center;
+    gap: 10px;
+    padding: 3px;
+
+
+}
+.contacto h3{
+    padding: 20px;
+}
+
+.contacto img {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sociales img {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sociales h3 {
+    padding: 20px;
+    display: grid;
+    align-items: center;
+    justify-content: center
+}
+
+.instagram {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    padding: 3px;
+
+}
+
+.instagram a {
+    color: white;
+}
+
+.facebook {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    padding: 3px;
+}
+
+.linkedin {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    padding: 3px;
+}
+
+.linkedin a {
+    color: white;
+}
+
+.github {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    padding: 3px;
+}
+
+.github a {
+    color: white;
+}
+
+.idiomas h3 {
+    padding: 20px;
+    display: grid;
+    align-items: center;
+    justify-content: center
+}
+
+
+.idiomas li {
+    padding: 8px;
+    display: grid;
+    align-items: center;
+    justify-content: left;
+}
+.interes h3 {
+    padding: 20px;
+    display: grid;
+    align-items: center;
+    justify-content: center
+}
+
+
+
+.interes li {
+    padding: 8px;
+    display: grid;
+    align-items: center;
+    justify-content: left;
+}
+
+.personal {
+    justify-content: center;
+    align-items: center;
+
+    height: 1438px;
+    width: 1652px;
+    padding: 10px;
+
+}
+
+.sobremi{
+    padding: 8px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+}
+.sobremi h3 {
+    padding: 10px;
+    display: grid;
+    align-items: center;
+    justify-content: left
+}
+.experencia{
+    padding: 8px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+}
+.experencia h3 {
+    padding: 10px;
+    display: grid;
+    align-items: center;
+    justify-content: left
+}
+.experencia h4 {
+    padding: 10px;
+    display: grid;
+    align-items: center;
+    justify-content: left
+}
+.educacion{
+    padding: 8px;
+    display: grid;
+    align-items: center;
+    justify-content: left;
+    
+}
+.educacion h3 {
+    padding: 10px;
+    display: grid;
+    align-items: center;
+    justify-content: left
+}
+.educacion h4 {
+    padding: 10px;
+    display: grid;
+    align-items: center;
+    justify-content: left
+}
+.habilidades img {
+    height: 80px;
+    width: 80x;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.habilidades h3 {
+    padding: 10px;
+    display: grid;
+    align-items: center;
+    justify-content: center}
+
+.excel {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    padding: 3px;
+    
+    
+}
+
+.excel p{
+    font-weight: bolder;
+
+}
+
+.sap {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    padding: 3px;
+    
+    
+}
+
+.sap p{
+    font-weight: bolder;
+
+}
+.powerbi {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    padding: 3px;
+    
+    
+}
+
+.powerbi p{
+    font-weight: bolder;
+
+}
+.visual {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    padding: 3px;
+    
+    
+}
+
+.visual p{
+    font-weight: bolder;
+
+}
+
+.cursos h3 {
+    padding: 20px;
+    display: grid;
+    align-items: center;
+    justify-content: center
+}
+
+
+
+.interes li {
+    padding: 8px;
+    display: grid;
+    align-items: center;
+    justify-content: left;
+}
+
+.cursos ul{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    padding: 15px;
+}
+
+.cursos h3{
+    padding: 20px;
+    display: grid;
+    align-items: center;
+    justify-content: center
+}
+
+.cursos div{
+    font-weight: bolder;
+}
